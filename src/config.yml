@@ -1,0 +1,60 @@
+#######################################
+# BungeeStaffPlus Configuration File  #
+# v1.0 by Perotin                     #
+#######################################
+
+# Welcome to the BungeeStaffListPlus Configuration File!
+
+
+# this must be a multiple of 9!
+inventory-size: 27
+
+
+# slot range at which staff player's head should be placed in, note this
+# is counting from 0! So the 1st slot is 0 ...
+# also make sure the inventory size > the range!
+
+start-slot: 0
+end-slot: 8
+
+
+
+################
+# Ranks System
+#
+# Power indicates slot in Staff menu
+# i/e power of 0 would mean show up first in menu
+# higher the number, lower the rank will show in the menu!
+#
+# (ex. give most important ranks a power of 0, and least important a higher power like 10)
+#
+#
+# Name is what will be used in the menu and throughout the plugin
+#
+# Color is what color the rank will be represented as in /sl list
+# Find colors here https://minecraft.gamepedia.com/Wool#Block_data
+
+# Default ranks below, use the template as designed to create an infinite amount of ranks!
+
+
+ranks:
+   owner:
+      name: "&cOwner"
+      power: 0
+      members: {}
+      color: 14
+   admin:
+      name: "&cAdmin"
+      power: 1
+      members: {}
+      color: 1
+   moderator:
+      name: "&aModerator"
+      power: 2
+      members: {}
+      color: 3
+   helpers:
+      name: "&eHelper"
+      power: 3
+      members: {}
+      color: 5

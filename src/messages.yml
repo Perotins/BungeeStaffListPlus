@@ -1,0 +1,57 @@
+# Welcome to the BungeeStaffPlus messages file!
+# Here you can find any string that is used in this plugin, and change it at your leisure.
+
+# List of placeholders
+# - $name$
+# - $rank$
+# - $server$
+# - $prefix$
+
+added-player: "$prefix$ &aYou have added &6$player$&a to &b'$rank$&b'&a!"
+already-added: "$prefix$ &c$player$&a is already apart of &b'$rank$&b'&a!"
+
+cancel: "cancel"
+
+
+error: "&cAn error has occurred. Please tell your system operator of this error!"
+enter-valid-name: "$prefix$&7 Please enter a valid name!"
+
+helpmenu-deco: "&8[&3----- &7BungeeStaffListPlus&3 -----&8]"
+helpmenu-add: "&3/stafflist add &8<&3player&8> &8<&3rank&8> - &3Add a player to a staff rank"
+helpmenu-remove: "&3/stafflist remove &8<&3player&8> &8<&3rank&8> - &3Remove a player from a staff rank"
+helpmenu-reload: "&3/stafflist reload&8 - &3Reload the plugin entirely"
+helpmenu-use: "&3/stafflist&8 - &3Open the staff list menu"
+
+
+improper-arguments: "$prefix$ &aImproper arguments! Try &e'/sl help'&a to view commands!"
+inventory-name: "Staff List"
+
+next-page-display: "&7Next page >>"
+no-permission: "&cYou cannot do this!"
+now-vanish: "$prefix$ &7&oYou are now vanished in /sl!"
+now-unvanish: "$prefix$ &7&oYou are now unvanished in /sl!"
+not-apart: "$prefix$ &c'$player$'&a is not apart of any ranks!"
+
+prefix: "&8[&3BungeeStaffListPlus&8] "
+previous-page-display: "&7<< Previous page"
+
+list-menu-title: "Previewing ranks"
+
+staff-lore-0: "$rank$ "
+staff-lore-1: "         &7$name$"
+staff-lore-2: "&6Server "
+staff-lore-3: "         &7$server$"
+
+reloaded: "$prefix$ &7BungeeStaffPlus has been reloaded!"
+removed-player: "$prefix$ &aYou have removed &6$player$&a from &b'$rank$&b'&a!"
+
+unknown-rank: "$prefix$ &7The rank &3'$rank$' &7could not be found!"
+unknown-rank1: "$prefix$ &7Try using &3/sl list &7 to view all ranks."
+usage-add: "$prefix$ &7Incorrect usage! &3/sl add &8<&3player&8> &8<&3rank&8>"
+usage-remove: "$prefix$ &7Incorrect usage! &3/sl remove &8<&3player&8> &8<&3rank&8>"
+
+vanish: "&eVanish"
+vanish-lore: "&7&o(Only you can see this)"
+view-staff-ranks: "$prefix$ &"
+
+unvanish: "&eUnvanish"

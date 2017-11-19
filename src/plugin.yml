@@ -1,0 +1,9 @@
+name: BungeeStaffListPlus
+main: me.perotin.bungeestaff.BungeeStaff
+version: 1.1
+author: Perotin
+commands:
+   stafflist:
+      usage: /stafflist
+      description: Basic staff command to get all players
+      aliases: [sl, bstaff, bsl, bstafflist]
